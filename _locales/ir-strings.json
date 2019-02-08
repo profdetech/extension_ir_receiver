@@ -1,0 +1,6 @@
+{
+  "IR.init|block": "connect ir receiver to %pin",
+  "IR.onPressEvent|block": "on |%btn| button pressed",
+  "IR|block": "IR",
+  "{id:category}IR": "IR"
+}
