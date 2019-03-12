@@ -14,7 +14,9 @@
         "ReceiverIR.h",
         "RemoteIR.h",
         "TransmitterIR.cpp",
-        "TransmitterIR.h"
+        "TransmitterIR.h",
+        "_locales/fr/ir-strings.json",
+        "_locales/fr/ir-jsdoc-strings.json"
     ],
     "public": true
 }

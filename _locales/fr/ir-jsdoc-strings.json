@@ -1,0 +1,4 @@
+{
+  "IR.init": "Déterminer la broche du récepteur infrarouge.",
+  "IR.onPressEvent": "Le bouton donné est pressé."
+}

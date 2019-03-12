@@ -1,7 +1,7 @@
 // Auto-generated. Do not edit.
 
 
-    declare enum Pins {
+    declare const enum Pins {
     P0 = 3,
     P1 = 2,
     P2 = 1,
@@ -24,7 +24,7 @@
     }
 
 
-    declare enum RemoteButton {
+    declare const enum RemoteButton {
     Power = 0x0,
     Up = 0x5,
     Left = 0x8,
