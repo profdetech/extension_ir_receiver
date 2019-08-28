@@ -1,6 +1,0 @@
-{
-  "IR.init|block": "brancher récepteur ir à %pin",
-  "IR.onPressEvent|block": "lorsque bouton |%btn| est pressé",
-  "IR|block": "IR",
-  "{id:category}IR": "IR"
-}
