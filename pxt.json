@@ -1,6 +1,6 @@
 {
     "name": "ir",
-    "version": "0.0.1",
+    "version": "0.1.2",
     "description": "Tinkercademy package for ElecFreaks IR receiver module",
     "license": "MIT",
     "dependencies": {
