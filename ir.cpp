@@ -50,15 +50,6 @@ namespace IR {
   ReceiverIR *rx;
   RemoteIR::Format fmt = RemoteIR::UNKNOWN;
 
-  /**
-  * button pushed.
-  */
-  //% blockId=ir_received_left_event
-  //% block="on |%btn| button pressed"
-  void onPressEvent(RemoteButton btn, Action body) {
-    //if(actions.find(btn) == actions.end()) actions[btn] = new vector();
-    actions[btn].push_back(body);
-  }
 
   void cA(vA runner){for(int i=0;i<runner.size();i++){runAction0(runner[i]);} }
 
@@ -80,14 +71,16 @@ namespace IR {
     }
   }
 
-  /**
-  * initialises local variablesssss
-  */
-  //% blockId=ir_init
-  //% block="connect ir receiver to %pin"
+  //%
   void init(Pins pin){
     rx = new ReceiverIR((PinName)pin);
     tsb.start(); //interrupt timer for debounce
     create_fiber(monitorIR);
+  }
+
+  //% 
+  void onPressEvent(RemoteButton btn, Action body) {
+    //if(actions.find(btn) == actions.end()) actions[btn] = new vector();
+    actions[btn].push_back(body);
   }
 }
