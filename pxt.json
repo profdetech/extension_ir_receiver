@@ -15,5 +15,9 @@
         "ReceiverIR.h",
         "RemoteIR.h"
     ],
-    "public": true
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }

@@ -1,12 +1,9 @@
-
-
 /**
  * IR remote
  */
-    //% color=50 weight=80
-    //% icon="\uf1eb"
+//% color=50
+//% icon="\uf1eb"
 namespace IR {
-
   /**
   * initialization
   */
@@ -28,5 +25,4 @@ namespace IR {
   export function onPressEvent(btn: RemoteButton, body:Action): void {
     return
   }
-
 }
