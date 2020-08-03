@@ -1,7 +1,7 @@
 /**
  * IR remote
  */
-//% color=50
+//% color=50 weight=0
 //% icon="\uf1eb"
 namespace IR {
   /**
