@@ -2,8 +2,11 @@
 
 
 
-    //% color=50 weight=80
-    //% icon="\uf1eb"
+    /**
+ * IR remote
+ */
+//% color=50 weight=999
+//% icon="\uf1eb"
 declare namespace IR {
 }
 
