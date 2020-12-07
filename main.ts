@@ -5,20 +5,20 @@
 //% icon="\uf1eb"
 namespace IR {
   /**
-  * initialization
-  */
+     *  Lorsque le bouton de la telecommande du robot mbot est appuyé. Attention à initialiser le port du recepteur infrarouge.
+   */
   //% blockId=ir_init
-  //% block="connect ir receiver to %pin"
+  //% block="Initialiser le capteur infrarouge sur %pin"
   //% shim=IR::init
   export function init(pin: Pins): void {
     return
   }
 
   /**
-  * button pushed.
-  */
+     * initialiser infrarouge (portail automatique sur P13)
+     */
   //% blockId=ir_received_event
-  //% block="on |%btn| button pressed"
+  //% block="Lorsque le signal du bouton |%btn| de la télécommande est reçu"
   //% shim=IR::onPressEvent
   export function onPressEvent(btn: RemoteButton, body:Action): void {
     return
