@@ -1,7 +1,7 @@
 /**
  * IR remote
  */
-//% color=50 weight=0
+//% color=50 weight=999
 //% icon="\uf1eb"
 namespace IR {
   /**
@@ -10,6 +10,7 @@ namespace IR {
   //% blockId=ir_init
   //% block="Initialiser le capteur infrarouge sur %pin"
   //% shim=IR::init
+  //% group="Chaîne d'information - acquérir"
   export function init(pin: Pins): void {
     return
   }
@@ -20,6 +21,7 @@ namespace IR {
   //% blockId=ir_received_event
   //% block="Lorsque le signal du bouton |%btn| de la télécommande est reçu"
   //% shim=IR::onPressEvent
+  //% group="Chaîne d'information - acquérir"
   export function onPressEvent(btn: RemoteButton, body:Action): void {
     return
   }
